@@ -1,0 +1,47 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Vocab Manager
+  version: 1.x
+  folders:
+
+  # This section is for PDF generation.
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  # Web content.
+  - title: Overview
+    output: web, pdf
+    folderitems: 
+
+    - title: Introduction
+      url: /v1_intro.html
+      output: web, pdf
+      type: homepage
+
+    - title: User Manual
+      url: /v1_manual.html
+      output: web, pdf
+
+  - title: Installation
+    output: web, pdf
+    folderitems:
+
+    - title: Instruction
+      url: /v1_install_instruction.html
+      output: web, pdf
+      
+    - title: Windows
+      url: /v1_windows_install.html
+      output: web, pdf

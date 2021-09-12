@@ -1,0 +1,21 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: English Site
+      url: /index.html
+    - title: 作者
+      external_url: https://cabinz.github.io/about.html
+    - title: GitHub
+      external_url: https://github.com/cabinz/vocab-manager
+
+
+## Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: 发行版本
+      folderitems:
+        - title: Vocab Manager 1.x
+          url: /v1_zh_intro.html
