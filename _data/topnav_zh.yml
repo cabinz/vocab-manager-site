@@ -6,7 +6,8 @@ topnav:
     - title: English Site
       url: /index.html
     - title: 作者
-      external_url: https://cabinz.github.io/about.html
+      # external_url: https://cabinz.github.io/about.html
+      external_url: https://github.com/cabinz
     - title: GitHub
       external_url: https://github.com/cabinz/vocab-manager
 
