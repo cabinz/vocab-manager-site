@@ -1,7 +1,7 @@
 ---
-title: 使用手册
+title: 使用手册 v1.0.0 - v1.1.0
 keywords: 
-last_updated: 2021-9-8
+last_updated: 2021-9-20
 summary: Vocab Manager 1.x 的特性和使用帮助。
 topnav: topnav_zh
 sidebar: v1_zh_sidebar
@@ -45,7 +45,7 @@ folder: v1_zh
 
 #### 2.1.2 生词细节
 
-Vocab Manager希望提供的是高度定制化的生词管理工具，以提供给不同领域的使用者。因此，所有的生词细节：包括生词的拼写、定义/翻译（Definition）、生词的语境/例句（Context）、笔记（Notes）都需要由用户进行输入。如果用户在标签页预定义了标签，也可以给生词打上不同的标签。
+Vocab Manager希望提供的是高度定制化的生词管理工具，以提供给不同领域的使用者。因此，所有的生词细节：包括生词的拼写、定义/翻译（Definition）、生词的语境/例句（Context）、笔记（Notes）都鼓励用户进行自定义输入。如果用户在标签页预定义了标签，也可以给生词打上不同的标签。
 
 * 生词拼写、生词定义、生词例句、生词笔记进行人工添加，只有生词拼写不能为空；
 * 如果在标签页预定义了标签，可以在添加标签栏下方的下拉框中找到这些标签。在下拉框中选中想要添加的标签后，单击“Tagging”即添加一个标签；
@@ -55,6 +55,10 @@ Vocab Manager希望提供的是高度定制化的生词管理工具，以提供�
 **所有在生词细节区中的输入，都需要通过下方的“Create”和“Update”按钮来进行提交**：“Create”是指创建新的一个词条，“Update”是指更新当前选中的词条。“Create”的快捷键是 “Ctrl+Shift+Enter”，“Update”的快捷键是“Ctrl+S”。
 
 最底部中间的 “Clear”按钮，将会清空生词细节区的所有用户输入，以便进行一个新词条的创建。
+
+{% include note.html content="从 v1.1.0 开始，快捷键中的SHIFT都被除去，\"Create\" 的快捷键变为 \"Ctrl+Enter\"" %}
+
+{% include note.html content="从 v1.1.0 开始，生词编辑页面支持从朗文在线词典网页拉取**英文单词**的具体释义、例句对面板进行自动填充。自动填充快捷键为 \"Ctrl + F\"：在输入生词拼写框内使用，会对Definition、Context两栏中置空的栏目进行自动填充；在Definition、Context栏内使用，会讲拉取的内容追加在最后。也可以使用顶部工具栏 \"Auto Fill\" 中的选项进行自动填充或追加，\"Fill All\"是对生词本中的所有单词执行自动填充。" %}
 
 {% include image.html file="v1_manual/word-detail-editor.png" alt="" caption="" %}
 
@@ -94,6 +98,8 @@ Vocab Manager希望提供的是高度定制化的生词管理工具，以提供�
 生词测试界面是Vocab Manager为用户提供的生词自测功能。通过不断展示生词的拼写，用户判断自己是否记忆该单词选择”Remember“（记得）或”Forget“（遗忘），来进行生词自测。
 
 所有生词自测的结果都会被记录，生词出现的先后顺序，按照历史遗忘率从高到低进行排序。
+
+{% include note.html content="从 v1.1.0 开始，生词测试页面会显示当前生词的历史测试信息（正确率等），并支持直接在测试界面将已掌握的生词移动到回收站。" %}
 
 {% include image.html file="v1_manual/quiz-form.png" alt="" caption="" %}
 

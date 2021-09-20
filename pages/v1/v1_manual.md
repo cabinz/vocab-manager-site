@@ -1,7 +1,7 @@
 ---
-title: User Manual
+title: User Manual v1.0.0 - v1.1.0
 keywords: 
-last_updated: 2021-9-8
+last_updated: 2021-9-20
 summary: All the features and using details of Vocab Manager 1.x.
 sidebar: v1_sidebar
 permalink: v1_manual.html
@@ -40,7 +40,7 @@ If you want to remove a word, select the word in the List and click "Remove" but
 
 #### 2.1.2 Detail Board
 
-Vocab Manager aims to serve as a highly customized vocabulary management tool, so that users from different fields (especially various professional fields) can use it as their specific requirements. Therefore, all the details of words, including spellings, definitions, contexts and notes, are required input from the users. After pre-defining tags in the Tag Editor, users can also use them for tagging words.
+Vocab Manager aims to serve as a highly customized vocabulary management tool, so that users from different fields (especially various professional fields) can use it as their specific requirements. Therefore, users are encouraged to input all the details of words, including spellings, definitions, contexts and notes. After pre-defining tags in the Tag Editor, users can also use them for tagging words.
 
 * Spelling, definition, context, note are required manual input. Only the spelling of the word/phrase cannot be empty.
 * If you pre-defined some tags in the Tag Editor table, they can be found in the drop down list of the Tagging Box. Select the one you want to tag on the word and click "Tagging" to add it.
@@ -50,6 +50,10 @@ Vocab Manager aims to serve as a highly customized vocabulary management tool, s
 **All changes made in the Detail Board must be committed by clicking "Create" or "Update" below.**  "Create" button is for adding a new word in your notebook while "Update" button is for modifying the selected word in the Word List. Keyboard shortcut for "Create" is "Ctrl + Shift + Enter". And for "Update" there is "Ctrl + S".
 
 The "Clear" button in the middle of the bottom will clean all the user input on the board, getting ready for inputs of a new word.
+
+{% include note.html content="From v1.1.0 on, SHIFT in all keyboard shortcuts are removed, shortcut for \"Create\" become \"Ctrl + Enter\"" %}
+
+{% include note.html content="From v1.1.0 on, word editor supports auto-filling the definitions and contexts (examples) of **English words** with contents crawled from Longman dictionary web page. The keyboard shortcut for auto-filling is \"Ctrl + F\": using in word spelling text box will automatically fill blank box(es); using in definition/context text box will append the content to the end of the current text. You can also find auto-filling options in the \"Auto Fill\" box of top menu, where \"Fill All\" is for auto-filling all records in the notebook." %}
 
 {% include image.html file="v1_manual/word-detail-editor.png" alt="" caption="" %}
 
@@ -89,6 +93,8 @@ The markdown file exported is like:
 The Quiz window is a self-testing of vocabulary in the notebook. By showing the spellings of the words, users can press "Remember" or "Forget" to keep going.
 
 All the test results will be recorded. The displaying order of the words is according to the history forgetting ratio.
+
+{% include note.html content="From v1.1.0 on, the history statistical test information is displayed on the quiz form. And users can remove the momerized word into recycle bin directly during the quiz." %}
 
 {% include image.html file="v1_manual/quiz-form.png" alt="" caption="" %}
 

@@ -22,7 +22,7 @@ The latest stable internal version of Vocab Manager 1.x in the "Windows" sidebar
 
 You need to specify a path when installing for Vocab Manager 1.x, where the database file will locate with all your vocabulary records. 
 
-* If you want to preserve your vocabulary data before you uninstall / update the software, you need to manually save a copy of the "LocalDB.sqlite" file in your disk.
+* **If you want to preserve your vocabulary data before you uninstall / update the software, you need to manually save a copy of the "LocalDB.sqlite" file in your disk.**
 
 SQLite is the local storage of Vocab Manager 1.x, which requires you to have permission to modify the database file to enable the software work successfully. 
 
@@ -33,3 +33,5 @@ SQLite is the local storage of Vocab Manager 1.x, which requires you to have per
 Vocab Manger 1.x has several internal version for incremental development, which are named by 1.0.0, 1.1.0, 1.2.0, etc, where the second number stands for feature updates and the third number represents bug fixes.
 
 Installer of every Vocab Manager 1.x internal version will be updated in "Windows" sidebar page, along with the details about bugfixes and new features.
+
+**Currently auto-upgrading has not been supported yet. When doing version upgrade, users are required to manually backup the database file, uninstall the older version, install the newer version and cover the data into the root directory of the new installation.**

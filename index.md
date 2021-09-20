@@ -14,7 +14,7 @@ Vocab Manager is an open-source project developing a Windows desktop notebook so
 
 The product is suitable for foreign language learners who are used to remember vocabulary through context, example, definition, some extra notes and usually do foreign language reading on computer. It aims to provide users a clean and regular pattern of remembering and reviewing words and phrases. 
 
-The latest release version of Vocab Manager is [1.x](./v1_intro.html), go check it out! 
+**The latest major version of Vocab Manager is [1.x](./v1_intro.html), go check it out!**
 
 # Ideas and Development
 
