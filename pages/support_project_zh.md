@@ -27,6 +27,8 @@ Vocab Manager 是采用 Mit License 许可的开源项目，**使用完全免费
 
 Vocab Manger 已经 [在 GitHub 上开源](https://github.com/cabinz/vocab-manager)。
 
-如果你有新的灵感、错误反馈或需要任何的帮助，请在项目的issues里留言！
+你给项目的一个 star，会成为作者开发和维护很大的鼓励~
+
+如果你有新的灵感、错误反馈或需要任何的帮助，请在项目的 issues 里留言！
 
 同时，也欢迎各位感兴趣的开发者通过 pull request 对项目进行贡献，可以通过 email 或者其他方式联系到我。

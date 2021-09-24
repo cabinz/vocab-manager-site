@@ -6,15 +6,21 @@ hide_sidebar: true
 permalink: index.html
 ---
 
-{% include image.html file="post.png" alt="Logo of Vocab Manger 1.0" caption="" %}
+{% include image.html file="poster.png" alt="Logo of Vocab Manger 1.0" caption="" %}
 
 # Welcome to the official site of Vocab Manager 😀
 
 Vocab Manager is an open-source project developing a Windows desktop notebook software. It enables users to freely customize their own vocabulary and do self-testing on it.
 
+# The latest major version of Vocab Manager is [1.x](./v1_intro.html), go check it out!
+
+<br>
+
 The product is suitable for foreign language learners who are used to remember vocabulary through context, example, definition, some extra notes and usually do foreign language reading on computer. It aims to provide users a clean and regular pattern of remembering and reviewing words and phrases. 
 
-**The latest major version of Vocab Manager is [1.x](./v1_intro.html), go check it out!**
+If you are preparing for language exams like TOFEL and IELTS, or a reader of foreign literature in your prefessional field, Vocab Manager allows you to freely build you own vocabulary notebook and manage, review the words in it efficiently.
+
+
 
 # Ideas and Development
 
