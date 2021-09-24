@@ -14,11 +14,13 @@ folder:
 
 Vocab Manager 是采用 Mit License 许可的开源项目，**使用完全免费**。
 
-项目当前由作者独自进行维护和升级，是纯粹的用爱发电产物，花费较多的时间和精力。如果你觉得项目产品对您很有帮助，或者项目的idea对您有启发，可以请我喝一杯冰阔落 🥤 恢复元气，让我可以更好地进行开发~
+项目当前由作者独自进行维护和升级，是纯粹的用爱发电产物，花费较多的时间和精力。
+
+如果你觉得项目产品对您很有帮助，或者项目的idea对您有启发，可以请我喝一杯冰阔落 🥤 恢复元气，让我可以更好地进行开发~
 
 感谢所有支持和喜爱 Vocab Manager 的伙伴 😊
 
-{% include image.html file="wechat_support_qrcode.jpg" alt="微信赞赏码" caption="微信赞赏" max-width="500"%}
+{% include image.html file="wechat_support_qrcode.jpg" alt="微信赞赏码" caption="微信赞赏" max-width="40%"%}
 
 
 ## 开源贡献
