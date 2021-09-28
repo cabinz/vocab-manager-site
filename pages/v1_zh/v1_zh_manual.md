@@ -1,7 +1,7 @@
 ---
-title: 使用手册 v1.0.0 - v1.1.0
+title: 使用手册 v1.0.0 - v1.2.0
 keywords: 
-last_updated: 2021-9-20
+last_updated: 2021-9-28
 summary: Vocab Manager 1.x 的特性和使用帮助。
 topnav: topnav_zh
 sidebar: v1_zh_sidebar
@@ -56,9 +56,11 @@ Vocab Manager希望提供的是高度定制化的生词管理工具，以提供�
 
 最底部中间的 “Clear”按钮，将会清空生词细节区的所有用户输入，以便进行一个新词条的创建。
 
-{% include note.html content="从 v1.1.0 开始，快捷键中的SHIFT都被除去，\"Create\" 的快捷键变为 \"Ctrl+Enter\"" %}
+{% include note.html content="在 v1.1.0 中，快捷键中的SHIFT都被除去，\"Create\" 的快捷键变为 \"Ctrl+Enter\"" %}
 
 {% include note.html content="从 v1.1.0 开始，生词编辑页面支持从朗文在线词典网页拉取**英文单词**的具体释义、例句对面板进行自动填充。自动填充快捷键为 \"Ctrl + F\"：在输入生词拼写框内使用，会对Definition、Context两栏中置空的栏目进行自动填充；在Definition、Context栏内使用，会讲拉取的内容追加在最后。也可以使用顶部工具栏 \"Auto Fill\" 中的选项进行自动填充或追加，\"Fill All\"是对生词本中的所有单词执行自动填充。" %}
+
+{% include note.html content="从 v1.2.0 起，支持的快捷键还有 ① \"Ctrl + N\" 清空编辑面板，为全新的输入做准备、② \"Ctrl + Shift + C\" 清除生词的拼写和释义信息，保留上下文、标签和笔记，为另一个从相同语境中提取的生词输入做准备" %}
 
 {% include image.html file="v1_manual/word-detail-editor.png" alt="" caption="" %}
 
@@ -100,6 +102,8 @@ Vocab Manager希望提供的是高度定制化的生词管理工具，以提供�
 所有生词自测的结果都会被记录，生词出现的先后顺序，按照历史遗忘率从高到低进行排序。
 
 {% include note.html content="从 v1.1.0 开始，生词测试页面会显示当前生词的历史测试信息（正确率等），并支持直接在测试界面将已掌握的生词移动到回收站。" %}
+
+{% include note.html content="从 v1.2.0 开始，生词测试页面会通过顶部的进度条显示当前的测试进度。" %}
 
 {% include image.html file="v1_manual/quiz-form.png" alt="" caption="" %}
 

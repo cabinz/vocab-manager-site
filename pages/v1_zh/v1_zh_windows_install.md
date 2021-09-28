@@ -12,6 +12,26 @@ folder: v1_zh
 
 **下载或更新前请阅读[下载须知](v1_zh_install_instruction.md)页！**
 
+# Version 1.2.0
+[Download](https://github.com/cabinz/vocab-manager/releases/download/v1.2.0/WindowsInstaller_v1.2.0.zip)
+
+**新功能**：
+
+* Quiz页面顶部新增了测试进度条，可以实时了解测试的进度
+* 增加了新的快捷键：
+  * 在生词/标签编辑页 `Ctrl + N`：清空编辑面板，为全新的输入做准备
+  * 在生词编辑页 `Ctrl + Shift + C`：清除生词的拼写和释义信息，保留上下文、标签和笔记，为另一个从相同语境中提取的生词输入做准备
+
+**错误修复**：
+
+* 修复了在进行一轮测试后，加载新的测试题无法正确从新的测试队列头部开始测试的问题
+
+**其它**：
+
+* 将生词/标签编辑页的创建快捷键改回 `Ctrl + Shift + Enter`，以避免与文本框中的换行操作冲突
+
+---
+
 # Version 1.1.0
 [Download](https://github.com/cabinz/vocab-manager/releases/download/v1.1.0/WindowsInstaller_v1.1.0.zip)
 

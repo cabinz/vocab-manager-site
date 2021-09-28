@@ -1,7 +1,7 @@
 ---
-title: User Manual v1.0.0 - v1.1.0
+title: User Manual v1.0.0 - v1.2.0
 keywords: 
-last_updated: 2021-9-20
+last_updated: 2021-9-28
 summary: All the features and using details of Vocab Manager 1.x.
 sidebar: v1_sidebar
 permalink: v1_manual.html
@@ -51,9 +51,11 @@ Vocab Manager aims to serve as a highly customized vocabulary management tool, s
 
 The "Clear" button in the middle of the bottom will clean all the user input on the board, getting ready for inputs of a new word.
 
-{% include note.html content="From v1.1.0 on, SHIFT in all keyboard shortcuts are removed, shortcut for \"Create\" become \"Ctrl + Enter\"" %}
+{% include note.html content="In v1.1.0, SHIFT in all keyboard shortcuts are removed, shortcut for \"Create\" become \"Ctrl + Enter\"" %}
 
 {% include note.html content="From v1.1.0 on, word editor supports auto-filling the definitions and contexts (examples) of **English words** with contents crawled from Longman dictionary web page. The keyboard shortcut for auto-filling is \"Ctrl + F\": using in word spelling text box will automatically fill blank box(es); using in definition/context text box will append the content to the end of the current text. You can also find auto-filling options in the \"Auto Fill\" box of top menu, where \"Fill All\" is for auto-filling all records in the notebook." %}
+
+{% include note.html content="From v1.1.0 on, new gestures are supported: I. \"Ctr+ N\": clear the board for new input from scratch, II. \"Ctrl + Shift + C\": clear the word spelling and definition but preserve other inputs on the board, preparing for a new word from the same context, tags and notes" %}
 
 {% include image.html file="v1_manual/word-detail-editor.png" alt="" caption="" %}
 
@@ -95,6 +97,8 @@ The Quiz window is a self-testing of vocabulary in the notebook. By showing the 
 All the test results will be recorded. The displaying order of the words is according to the history forgetting ratio.
 
 {% include note.html content="From v1.1.0 on, the history statistical test information is displayed on the quiz form. And users can remove the momerized word into recycle bin directly during the quiz." %}
+
+{% include note.html content="From v1.2.0 on, the quiz progress can be tracked by the progress bar on the top of the quiz page." %}
 
 {% include image.html file="v1_manual/quiz-form.png" alt="" caption="" %}
 
